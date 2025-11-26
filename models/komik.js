@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
       autoIncrement: true
     },
 
-    // Judul komik (wajib diisi)
+    
     judul: {
       type: DataTypes.STRING,
       allowNull: false
